@@ -16,8 +16,14 @@ class Node
 int main()
 {
     // cout<<"checking";
-    Node * node1=new Node(50); //dynamic declaration
-cout<<node1 -> data<<endl;
-cout<<node1->next <<endl;
+   
+    Node node1(50);
+    //Node * node1= Node(50); //dynamic declaration
+// cout<<node1 -> data<<endl;
+// cout<<node1->next <<endl;
+        cout<<node1.data<<endl;
+        cout<<node1.next<<endl;
+
+
 
 }
